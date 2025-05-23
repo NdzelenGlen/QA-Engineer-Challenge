@@ -1,0 +1,40 @@
+{
+ "name": "automation",
+ "version": "1.0.0",
+ "main": "index.js",
+ "type": "module",
+ "scripts": {
+  "test": "npx playwright test",
+  "test:headed": "npx playwright test --headed",
+  "test:debug": "npx playwright test --debug",
+  "test:ui": "npx playwright test --ui",
+  "test:report": "npx playwright show-report",
+  "test:ui-only": "npx playwright test tests/ui-tests/",
+  "test:validation-only": "npx playwright test tests/validation-tests/",
+  "test:chrome": "npx playwright test --project=chromium",
+  "test:firefox": "npx playwright test --project=firefox",
+  "test:webkit": "npx playwright test --project=webkit",
+  "test:mobile": "npx playwright test --project='Mobile Chrome'",
+  "install:browsers": "npx playwright install"
+ },
+ "keywords": [
+  "playwright",
+  "automation",
+  "testing",
+  "qa",
+  "e2e"
+ ],
+ "author": "Ndzelen Glen",
+ "license": "ISC",
+ "description": "QA Assessment Automated tests using Playwright",
+ "devDependencies": {
+  "@playwright/test": "^1.52.0"
+ },
+ "directories": {
+  "test": "tests"
+ },
+ "dependencies": {
+  "playwright": "^1.52.0",
+  "playwright-core": "^1.52.0"
+ }
+}

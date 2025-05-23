@@ -1,0 +1,2886 @@
+<testsuites id="" name="" tests="72" failures="69" skipped="0" errors="0" time="593.671865">
+<testsuite name="validation-tests\form_validation.spec.js" timestamp="2025-05-22T23:55:54.234Z" hostname="chromium" tests="13" failures="12" skipped="0" time="192.289" errors="0">
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 2.1-2.2 - Enter valid information and verify it is visible" classname="validation-tests\form_validation.spec.js" time="30.226">
+<failure message="form_validation.spec.js:14:3 2.1-2.2 - Enter valid information and verify it is visible" type="FAILURE">
+<![CDATA[  [chromium] › validation-tests\form_validation.spec.js:14:3 › Form Validation Testing - Section 2 & 3 › 2.1-2.2 - Enter valid information and verify it is visible 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.fill: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('input[name="linkedin"], input#linkedin')
+
+
+       at ..\pages\UserProfilePage.js:68
+
+      66 |
+      67 |   async fillLinkedIn(linkedin) {
+    > 68 |     await this.linkedinField.fill(linkedin);
+         |                              ^
+      69 |   }
+      70 |
+      71 |   async fillGitHub(github) {
+        at UserProfilePage.fillLinkedIn (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:68:30)
+        at UserProfilePage.fillValidUserData (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:128:39)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:17:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Entering valid information in all fields
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 2.3 - Submit valid form and check for successful submission" classname="validation-tests\form_validation.spec.js" time="30.333">
+<failure message="form_validation.spec.js:30:3 2.3 - Submit valid form and check for successful submission" type="FAILURE">
+<![CDATA[  [chromium] › validation-tests\form_validation.spec.js:30:3 › Form Validation Testing - Section 2 & 3 › 2.3 - Submit valid form and check for successful submission 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.fill: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('input[name="linkedin"], input#linkedin')
+
+
+       at ..\pages\UserProfilePage.js:68
+
+      66 |
+      67 |   async fillLinkedIn(linkedin) {
+    > 68 |     await this.linkedinField.fill(linkedin);
+         |                              ^
+      69 |   }
+      70 |
+      71 |   async fillGitHub(github) {
+        at UserProfilePage.fillLinkedIn (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:68:30)
+        at UserProfilePage.fillValidUserData (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:128:39)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:33:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-90084-k-for-successful-submission-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-90084-k-for-successful-submission-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-90084-k-for-successful-submission-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Submitting valid form
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90084-k-for-successful-submission-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90084-k-for-successful-submission-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90084-k-for-successful-submission-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.1.2 - Submit empty form and verify firstname error" classname="validation-tests\form_validation.spec.js" time="35.425">
+<failure message="form_validation.spec.js:47:3 3.1.2 - Submit empty form and verify firstname error" type="FAILURE">
+<![CDATA[  [chromium] › validation-tests\form_validation.spec.js:47:3 › Form Validation Testing - Section 2 & 3 › 3.1.2 - Submit empty form and verify firstname error 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.count: Target page, context or browser has been closed
+
+       at ..\pages\UserProfilePage.js:255
+
+      253 |     
+      254 |     for (const selector of errorSelectors) {
+    > 255 |       const errorElements = await this.page.locator(selector).count();
+          |                                                               ^
+      256 |       if (errorElements > 0) {
+      257 |         return true;
+      258 |       }
+        at UserProfilePage.hasAnyErrorMessage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:255:63)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:54:44
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-89749--and-verify-firstname-error-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-89749--and-verify-firstname-error-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Submitting empty form to check firstname validation
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-89749--and-verify-firstname-error-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-89749--and-verify-firstname-error-chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.1.3 - Enter invalid firstname (numbers only) and verify error" classname="validation-tests\form_validation.spec.js" time="3.708">
+<failure message="form_validation.spec.js:59:3 3.1.3 - Enter invalid firstname (numbers only) and verify error" type="FAILURE">
+<![CDATA[  [chromium] › validation-tests\form_validation.spec.js:59:3 › Form Validation Testing - Section 2 & 3 › 3.1.3 - Enter invalid firstname (numbers only) and verify error 
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      71 |     
+      72 |     const hasError = await userProfilePage.hasAnyErrorMessage();
+    > 73 |     expect(hasError).toBeTruthy();
+         |                      ^
+      74 |   });
+      75 |
+      76 |   test('3.1.4 - Enter invalid firstname (alphanumeric) and verify error', async ({ page }) => {
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:73:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing firstname with numbers only
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.1.4 - Enter invalid firstname (alphanumeric) and verify error" classname="validation-tests\form_validation.spec.js" time="2.497">
+<failure message="form_validation.spec.js:76:3 3.1.4 - Enter invalid firstname (alphanumeric) and verify error" type="FAILURE">
+<![CDATA[  [chromium] › validation-tests\form_validation.spec.js:76:3 › Form Validation Testing - Section 2 & 3 › 3.1.4 - Enter invalid firstname (alphanumeric) and verify error 
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      88 |     
+      89 |     const hasError = await userProfilePage.hasAnyErrorMessage();
+    > 90 |     expect(hasError).toBeTruthy();
+         |                      ^
+      91 |   });
+      92 |
+      93 |   test('3.1.5 - Enter invalid firstname (with symbols) and verify error', async ({ page }) => {
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:90:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing firstname with alphanumeric characters
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.1.5 - Enter invalid firstname (with symbols) and verify error" classname="validation-tests\form_validation.spec.js" time="2.85">
+<failure message="form_validation.spec.js:93:3 3.1.5 - Enter invalid firstname (with symbols) and verify error" type="FAILURE">
+<![CDATA[  [chromium] › validation-tests\form_validation.spec.js:93:3 › Form Validation Testing - Section 2 & 3 › 3.1.5 - Enter invalid firstname (with symbols) and verify error 
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      105 |     
+      106 |     const hasError = await userProfilePage.hasAnyErrorMessage();
+    > 107 |     expect(hasError).toBeTruthy();
+          |                      ^
+      108 |   });
+      109 |
+      110 |   test('3.2.1 - Enter invalid lastname (numbers only) and verify error', async ({ page }) => {
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:107:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing firstname with symbols
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.2.1 - Enter invalid lastname (numbers only) and verify error" classname="validation-tests\form_validation.spec.js" time="2.54">
+<failure message="form_validation.spec.js:110:3 3.2.1 - Enter invalid lastname (numbers only) and verify error" type="FAILURE">
+<![CDATA[  [chromium] › validation-tests\form_validation.spec.js:110:3 › Form Validation Testing - Section 2 & 3 › 3.2.1 - Enter invalid lastname (numbers only) and verify error 
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      122 |     
+      123 |     const hasError = await userProfilePage.hasAnyErrorMessage();
+    > 124 |     expect(hasError).toBeTruthy();
+          |                      ^
+      125 |   });
+      126 |
+      127 |   test('3.2.2 - Enter invalid lastname (alphanumeric) and verify error', async ({ page }) => {
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:124:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing lastname with numbers only
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.2.2 - Enter invalid lastname (alphanumeric) and verify error" classname="validation-tests\form_validation.spec.js" time="2.871">
+<failure message="form_validation.spec.js:127:3 3.2.2 - Enter invalid lastname (alphanumeric) and verify error" type="FAILURE">
+<![CDATA[  [chromium] › validation-tests\form_validation.spec.js:127:3 › Form Validation Testing - Section 2 & 3 › 3.2.2 - Enter invalid lastname (alphanumeric) and verify error 
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      139 |     
+      140 |     const hasError = await userProfilePage.hasAnyErrorMessage();
+    > 141 |     expect(hasError).toBeTruthy();
+          |                      ^
+      142 |   });
+      143 |
+      144 |   test('3.2.3 - Enter invalid lastname (with symbols) and verify error', async ({ page }) => {
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:141:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing lastname with alphanumeric characters
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.2.3 - Enter invalid lastname (with symbols) and verify error" classname="validation-tests\form_validation.spec.js" time="2.614">
+<failure message="form_validation.spec.js:144:3 3.2.3 - Enter invalid lastname (with symbols) and verify error" type="FAILURE">
+<![CDATA[  [chromium] › validation-tests\form_validation.spec.js:144:3 › Form Validation Testing - Section 2 & 3 › 3.2.3 - Enter invalid lastname (with symbols) and verify error 
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      156 |     
+      157 |     const hasError = await userProfilePage.hasAnyErrorMessage();
+    > 158 |     expect(hasError).toBeTruthy();
+          |                      ^
+      159 |   });
+      160 |
+      161 |   test('3.3.1 - Enter invalid email addresses and verify error', async ({ page }) => {
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:158:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing lastname with symbols
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.3.1 - Enter invalid email addresses and verify error" classname="validation-tests\form_validation.spec.js" time="3.102">
+<failure message="form_validation.spec.js:161:3 3.3.1 - Enter invalid email addresses and verify error" type="FAILURE">
+<![CDATA[  [chromium] › validation-tests\form_validation.spec.js:161:3 › Form Validation Testing - Section 2 & 3 › 3.3.1 - Enter invalid email addresses and verify error 
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      174 |     
+      175 |     const hasError = await userProfilePage.hasAnyErrorMessage();
+    > 176 |     expect(hasError).toBeTruthy();
+          |                      ^
+      177 |   });
+      178 |
+      179 |   test('3.4.1 - Check date format (Expected to fail)', async ({ page }) => {
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:176:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing invalid email formats
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.4.1 - Check date format (Expected to fail)" classname="validation-tests\form_validation.spec.js" time="2.509">
+<system-out>
+<![CDATA[Test Step: Testing date format - expected DD-MM-YY instead of YYYY-MM-DD
+Test confirmed: Date format is DD-MM-YY instead of expected YYYY-MM-DD
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.5.1 - Enter invalid LinkedIn URL and verify error (Expected to fail)" classname="validation-tests\form_validation.spec.js" time="36.653">
+<failure message="form_validation.spec.js:196:3 3.5.1 - Enter invalid LinkedIn URL and verify error (Expected to fail)" type="FAILURE">
+<![CDATA[  [chromium] › validation-tests\form_validation.spec.js:196:3 › Form Validation Testing - Section 2 & 3 › 3.5.1 - Enter invalid LinkedIn URL and verify error (Expected to fail) 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.fill: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('input[name="linkedin"], input#linkedin')
+
+
+       at ..\pages\UserProfilePage.js:68
+
+      66 |
+      67 |   async fillLinkedIn(linkedin) {
+    > 68 |     await this.linkedinField.fill(linkedin);
+         |                              ^
+      69 |   }
+      70 |
+      71 |   async fillGitHub(github) {
+        at UserProfilePage.fillLinkedIn (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:68:30)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:199:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing invalid LinkedIn URL - expected to show error but form submits
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.5.2 - Enter invalid GitHub URL and verify error (Expected to fail)" classname="validation-tests\form_validation.spec.js" time="36.961">
+<failure message="form_validation.spec.js:220:3 3.5.2 - Enter invalid GitHub URL and verify error (Expected to fail)" type="FAILURE">
+<![CDATA[  [chromium] › validation-tests\form_validation.spec.js:220:3 › Form Validation Testing - Section 2 & 3 › 3.5.2 - Enter invalid GitHub URL and verify error (Expected to fail) 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.count: Target page, context or browser has been closed
+
+       at ..\pages\UserProfilePage.js:255
+
+      253 |     
+      254 |     for (const selector of errorSelectors) {
+    > 255 |       const errorElements = await this.page.locator(selector).count();
+          |                                                               ^
+      256 |       if (errorElements > 0) {
+      257 |         return true;
+      258 |       }
+        at UserProfilePage.hasAnyErrorMessage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:255:63)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:236:44
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing invalid GitHub URL - expected to show error but form submits
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="validation-tests\mandatory-optional-fields.spec.js" timestamp="2025-05-22T23:55:54.234Z" hostname="chromium" tests="5" failures="3" skipped="0" time="46.653" errors="0">
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.1.1 - Create user profile without mandatory fields and verify error messages" classname="validation-tests\mandatory-optional-fields.spec.js" time="2.374">
+<failure message="mandatory-optional-fields.spec.js:14:3 4.1.1 - Create user profile without mandatory fields and verify error messages" type="FAILURE">
+<![CDATA[  [chromium] › validation-tests\mandatory-optional-fields.spec.js:14:3 › Mandatory and Optional Field Validation - Section 4 › 4.1.1 - Create user profile without mandatory fields and verify error messages 
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      20 |     // Check for error messages for mandatory fields
+      21 |     const hasError = await userProfilePage.hasAnyErrorMessage();
+    > 22 |     expect(hasError).toBeTruthy();
+         |                      ^
+      23 |     
+      24 |     // Verify specific error messages for mandatory fields
+      25 |     const firstNameError = await userProfilePage.getFirstNameErrorMessage();
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:22:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing mandatory field validation by submitting empty form
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.1.1a - Test each mandatory field individually" classname="validation-tests\mandatory-optional-fields.spec.js" time="2.729">
+<failure message="mandatory-optional-fields.spec.js:34:3 4.1.1a - Test each mandatory field individually" type="FAILURE">
+<![CDATA[  [chromium] › validation-tests\mandatory-optional-fields.spec.js:34:3 › Mandatory and Optional Field Validation - Section 4 › 4.1.1a - Test each mandatory field individually 
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      44 |     await userProfilePage.submitForm();
+      45 |     let hasError = await userProfilePage.hasAnyErrorMessage();
+    > 46 |     expect(hasError).toBeTruthy();
+         |                      ^
+      47 |     
+      48 |     // Clear form and test missing lastName
+      49 |     await userProfilePage.clearAllFields();
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:46:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-chromium\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing each mandatory field individually
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-chromium\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-chromium\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.2.1 - Create user profile without optional fields (Expected to fail)" classname="validation-tests\mandatory-optional-fields.spec.js" time="34.85">
+<failure message="mandatory-optional-fields.spec.js:73:3 4.2.1 - Create user profile without optional fields (Expected to fail)" type="FAILURE">
+<![CDATA[  [chromium] › validation-tests\mandatory-optional-fields.spec.js:73:3 › Mandatory and Optional Field Validation - Section 4 › 4.2.1 - Create user profile without optional fields (Expected to fail) 
+
+    Test timeout of 30000ms exceeded.
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing optional field validation - should allow submission without optional fields
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--chromium\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--chromium\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.2.1a - Test each optional field individually" classname="validation-tests\mandatory-optional-fields.spec.js" time="3.905">
+<system-out>
+<![CDATA[Test Step: Testing that each optional field can be left empty
+]]>
+</system-out>
+</testcase>
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.2.1b - Test form submission with only mandatory fields and verify no errors for optional fields" classname="validation-tests\mandatory-optional-fields.spec.js" time="2.795">
+<system-out>
+<![CDATA[Test Step: Verifying no errors are shown for empty optional fields
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="validation-tests\form_validation.spec.js" timestamp="2025-05-22T23:55:54.234Z" hostname="firefox" tests="13" failures="13" skipped="0" time="201.593" errors="0">
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 2.1-2.2 - Enter valid information and verify it is visible" classname="validation-tests\form_validation.spec.js" time="30.318">
+<failure message="form_validation.spec.js:14:3 2.1-2.2 - Enter valid information and verify it is visible" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\form_validation.spec.js:14:3 › Form Validation Testing - Section 2 & 3 › 2.1-2.2 - Enter valid information and verify it is visible 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.fill: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('input[name="linkedin"], input#linkedin')
+
+
+       at ..\pages\UserProfilePage.js:68
+
+      66 |
+      67 |   async fillLinkedIn(linkedin) {
+    > 68 |     await this.linkedinField.fill(linkedin);
+         |                              ^
+      69 |   }
+      70 |
+      71 |   async fillGitHub(github) {
+        at UserProfilePage.fillLinkedIn (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:68:30)
+        at UserProfilePage.fillValidUserData (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:128:39)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:17:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-firefox\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Entering valid information in all fields
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-firefox\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 2.3 - Submit valid form and check for successful submission" classname="validation-tests\form_validation.spec.js" time="30.244">
+<failure message="form_validation.spec.js:30:3 2.3 - Submit valid form and check for successful submission" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\form_validation.spec.js:30:3 › Form Validation Testing - Section 2 & 3 › 2.3 - Submit valid form and check for successful submission 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.fill: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for locator('input[name="linkedin"], input#linkedin')
+
+
+       at ..\pages\UserProfilePage.js:68
+
+      66 |
+      67 |   async fillLinkedIn(linkedin) {
+    > 68 |     await this.linkedinField.fill(linkedin);
+         |                              ^
+      69 |   }
+      70 |
+      71 |   async fillGitHub(github) {
+        at UserProfilePage.fillLinkedIn (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:68:30)
+        at UserProfilePage.fillValidUserData (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:128:39)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:33:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-90084-k-for-successful-submission-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-90084-k-for-successful-submission-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-90084-k-for-successful-submission-firefox\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Submitting valid form
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90084-k-for-successful-submission-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90084-k-for-successful-submission-firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90084-k-for-successful-submission-firefox\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.1.2 - Submit empty form and verify firstname error" classname="validation-tests\form_validation.spec.js" time="30.331">
+<failure message="form_validation.spec.js:47:3 3.1.2 - Submit empty form and verify firstname error" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\form_validation.spec.js:47:3 › Form Validation Testing - Section 2 & 3 › 3.1.2 - Submit empty form and verify firstname error 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.count: Target page, context or browser has been closed
+
+       at ..\pages\UserProfilePage.js:255
+
+      253 |     
+      254 |     for (const selector of errorSelectors) {
+    > 255 |       const errorElements = await this.page.locator(selector).count();
+          |                                                               ^
+      256 |       if (errorElements > 0) {
+      257 |         return true;
+      258 |       }
+        at UserProfilePage.hasAnyErrorMessage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:255:63)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:54:44
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-89749--and-verify-firstname-error-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-89749--and-verify-firstname-error-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Submitting empty form to check firstname validation
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-89749--and-verify-firstname-error-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-89749--and-verify-firstname-error-firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.1.3 - Enter invalid firstname (numbers only) and verify error" classname="validation-tests\form_validation.spec.js" time="7.907">
+<failure message="form_validation.spec.js:59:3 3.1.3 - Enter invalid firstname (numbers only) and verify error" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\form_validation.spec.js:59:3 › Form Validation Testing - Section 2 & 3 › 3.1.3 - Enter invalid firstname (numbers only) and verify error 
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      71 |     
+      72 |     const hasError = await userProfilePage.hasAnyErrorMessage();
+    > 73 |     expect(hasError).toBeTruthy();
+         |                      ^
+      74 |   });
+      75 |
+      76 |   test('3.1.4 - Enter invalid firstname (alphanumeric) and verify error', async ({ page }) => {
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:73:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-firefox\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing firstname with numbers only
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-firefox\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.1.4 - Enter invalid firstname (alphanumeric) and verify error" classname="validation-tests\form_validation.spec.js" time="11.404">
+<failure message="form_validation.spec.js:76:3 3.1.4 - Enter invalid firstname (alphanumeric) and verify error" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\form_validation.spec.js:76:3 › Form Validation Testing - Section 2 & 3 › 3.1.4 - Enter invalid firstname (alphanumeric) and verify error 
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      88 |     
+      89 |     const hasError = await userProfilePage.hasAnyErrorMessage();
+    > 90 |     expect(hasError).toBeTruthy();
+         |                      ^
+      91 |   });
+      92 |
+      93 |   test('3.1.5 - Enter invalid firstname (with symbols) and verify error', async ({ page }) => {
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:90:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-firefox\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing firstname with alphanumeric characters
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-firefox\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.1.5 - Enter invalid firstname (with symbols) and verify error" classname="validation-tests\form_validation.spec.js" time="10.17">
+<failure message="form_validation.spec.js:93:3 3.1.5 - Enter invalid firstname (with symbols) and verify error" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\form_validation.spec.js:93:3 › Form Validation Testing - Section 2 & 3 › 3.1.5 - Enter invalid firstname (with symbols) and verify error 
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      105 |     
+      106 |     const hasError = await userProfilePage.hasAnyErrorMessage();
+    > 107 |     expect(hasError).toBeTruthy();
+          |                      ^
+      108 |   });
+      109 |
+      110 |   test('3.2.1 - Enter invalid lastname (numbers only) and verify error', async ({ page }) => {
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:107:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-firefox\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing firstname with symbols
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-firefox\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.2.1 - Enter invalid lastname (numbers only) and verify error" classname="validation-tests\form_validation.spec.js" time="32.777">
+<failure message="form_validation.spec.js:110:3 3.2.1 - Enter invalid lastname (numbers only) and verify error" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\form_validation.spec.js:110:3 › Form Validation Testing - Section 2 & 3 › 3.2.1 - Enter invalid lastname (numbers only) and verify error 
+
+    Test timeout of 30000ms exceeded while running "beforeEach" hook.
+
+       7 |   let userProfilePage;
+       8 |
+    >  9 |   test.beforeEach(async ({ page }) => {
+         |        ^
+      10 |     userProfilePage = new UserProfilePage(page);
+      11 |     await userProfilePage.navigateToPage();
+      12 |   });
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:9:8
+
+    Error: page.waitForLoadState: Test timeout of 30000ms exceeded.
+
+       at ..\pages\UserProfilePage.js:36
+
+      34 |   async navigateToPage() {
+      35 |     await this.page.goto('/');
+    > 36 |     await this.page.waitForLoadState('networkidle');
+         |                     ^
+      37 |   }
+      38 |
+      39 |   async fillFirstName(firstName) {
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:36:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:5
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-firefox\video.webm]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.2.2 - Enter invalid lastname (alphanumeric) and verify error" classname="validation-tests\form_validation.spec.js" time="10.082">
+<failure message="form_validation.spec.js:127:3 3.2.2 - Enter invalid lastname (alphanumeric) and verify error" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\form_validation.spec.js:127:3 › Form Validation Testing - Section 2 & 3 › 3.2.2 - Enter invalid lastname (alphanumeric) and verify error 
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      139 |     
+      140 |     const hasError = await userProfilePage.hasAnyErrorMessage();
+    > 141 |     expect(hasError).toBeTruthy();
+          |                      ^
+      142 |   });
+      143 |
+      144 |   test('3.2.3 - Enter invalid lastname (with symbols) and verify error', async ({ page }) => {
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:141:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-firefox\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing lastname with alphanumeric characters
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-firefox\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.2.3 - Enter invalid lastname (with symbols) and verify error" classname="validation-tests\form_validation.spec.js" time="7.519">
+<failure message="form_validation.spec.js:144:3 3.2.3 - Enter invalid lastname (with symbols) and verify error" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\form_validation.spec.js:144:3 › Form Validation Testing - Section 2 & 3 › 3.2.3 - Enter invalid lastname (with symbols) and verify error 
+
+    Error: expect(received).toBeTruthy()
+
+    Received: false
+
+      156 |     
+      157 |     const hasError = await userProfilePage.hasAnyErrorMessage();
+    > 158 |     expect(hasError).toBeTruthy();
+          |                      ^
+      159 |   });
+      160 |
+      161 |   test('3.3.1 - Enter invalid email addresses and verify error', async ({ page }) => {
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:158:22
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-firefox\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[Test Step: Testing lastname with symbols
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-firefox\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.3.1 - Enter invalid email addresses and verify error" classname="validation-tests\form_validation.spec.js" time="6.981">
+<failure message="form_validation.spec.js:161:3 3.3.1 - Enter invalid email addresses and verify error" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\form_validation.spec.js:161:3 › Form Validation Testing - Section 2 & 3 › 3.3.1 - Enter invalid email addresses and verify error 
+
+    Error: page.goto: NS_ERROR_UNKNOWN_HOST
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-firefox\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-firefox\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.4.1 - Check date format (Expected to fail)" classname="validation-tests\form_validation.spec.js" time="7.343">
+<failure message="form_validation.spec.js:179:3 3.4.1 - Check date format (Expected to fail)" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\form_validation.spec.js:179:3 › Form Validation Testing - Section 2 & 3 › 3.4.1 - Check date format (Expected to fail) 
+
+    Error: page.goto: NS_ERROR_UNKNOWN_HOST
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--firefox\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--firefox\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.5.1 - Enter invalid LinkedIn URL and verify error (Expected to fail)" classname="validation-tests\form_validation.spec.js" time="7.994">
+<failure message="form_validation.spec.js:196:3 3.5.1 - Enter invalid LinkedIn URL and verify error (Expected to fail)" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\form_validation.spec.js:196:3 › Form Validation Testing - Section 2 & 3 › 3.5.1 - Enter invalid LinkedIn URL and verify error (Expected to fail) 
+
+    Error: page.goto: NS_ERROR_UNKNOWN_HOST
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--firefox\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--firefox\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.5.2 - Enter invalid GitHub URL and verify error (Expected to fail)" classname="validation-tests\form_validation.spec.js" time="8.523">
+<failure message="form_validation.spec.js:220:3 3.5.2 - Enter invalid GitHub URL and verify error (Expected to fail)" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\form_validation.spec.js:220:3 › Form Validation Testing - Section 2 & 3 › 3.5.2 - Enter invalid GitHub URL and verify error (Expected to fail) 
+
+    Error: page.goto: NS_ERROR_UNKNOWN_HOST
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--firefox\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--firefox\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="validation-tests\mandatory-optional-fields.spec.js" timestamp="2025-05-22T23:55:54.234Z" hostname="firefox" tests="5" failures="5" skipped="0" time="49.154" errors="0">
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.1.1 - Create user profile without mandatory fields and verify error messages" classname="validation-tests\mandatory-optional-fields.spec.js" time="10.77">
+<failure message="mandatory-optional-fields.spec.js:14:3 4.1.1 - Create user profile without mandatory fields and verify error messages" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\mandatory-optional-fields.spec.js:14:3 › Mandatory and Optional Field Validation - Section 4 › 4.1.1 - Create user profile without mandatory fields and verify error messages 
+
+    Error: page.goto: NS_ERROR_UNKNOWN_HOST
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-firefox\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-firefox\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.1.1a - Test each mandatory field individually" classname="validation-tests\mandatory-optional-fields.spec.js" time="12.308">
+<failure message="mandatory-optional-fields.spec.js:34:3 4.1.1a - Test each mandatory field individually" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\mandatory-optional-fields.spec.js:34:3 › Mandatory and Optional Field Validation - Section 4 › 4.1.1a - Test each mandatory field individually 
+
+    Error: page.goto: NS_ERROR_UNKNOWN_HOST
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-firefox\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-firefox\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.2.1 - Create user profile without optional fields (Expected to fail)" classname="validation-tests\mandatory-optional-fields.spec.js" time="7.565">
+<failure message="mandatory-optional-fields.spec.js:73:3 4.2.1 - Create user profile without optional fields (Expected to fail)" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\mandatory-optional-fields.spec.js:73:3 › Mandatory and Optional Field Validation - Section 4 › 4.2.1 - Create user profile without optional fields (Expected to fail) 
+
+    Error: page.goto: NS_ERROR_UNKNOWN_HOST
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--firefox\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--firefox\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.2.1a - Test each optional field individually" classname="validation-tests\mandatory-optional-fields.spec.js" time="8.646">
+<failure message="mandatory-optional-fields.spec.js:98:3 4.2.1a - Test each optional field individually" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\mandatory-optional-fields.spec.js:98:3 › Mandatory and Optional Field Validation - Section 4 › 4.2.1a - Test each optional field individually 
+
+    Error: page.goto: NS_ERROR_UNKNOWN_HOST
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-43349-optional-field-individually-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-43349-optional-field-individually-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-43349-optional-field-individually-firefox\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-43349-optional-field-individually-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-43349-optional-field-individually-firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-43349-optional-field-individually-firefox\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.2.1b - Test form submission with only mandatory fields and verify no errors for optional fields" classname="validation-tests\mandatory-optional-fields.spec.js" time="9.865">
+<failure message="mandatory-optional-fields.spec.js:127:3 4.2.1b - Test form submission with only mandatory fields and verify no errors for optional fields" type="FAILURE">
+<![CDATA[  [firefox] › validation-tests\mandatory-optional-fields.spec.js:127:3 › Mandatory and Optional Field Validation - Section 4 › 4.2.1b - Test form submission with only mandatory fields and verify no errors for optional fields 
+
+    Error: page.goto: NS_ERROR_UNKNOWN_HOST
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-firefox\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-firefox\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-firefox\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-firefox\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-firefox\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="validation-tests\form_validation.spec.js" timestamp="2025-05-22T23:55:54.234Z" hostname="webkit" tests="13" failures="13" skipped="0" time="36.756" errors="0">
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 2.1-2.2 - Enter valid information and verify it is visible" classname="validation-tests\form_validation.spec.js" time="5.307">
+<failure message="form_validation.spec.js:14:3 2.1-2.2 - Enter valid information and verify it is visible" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\form_validation.spec.js:14:3 › Form Validation Testing - Section 2 & 3 › 2.1-2.2 - Enter valid information and verify it is visible 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 2.3 - Submit valid form and check for successful submission" classname="validation-tests\form_validation.spec.js" time="2.091">
+<failure message="form_validation.spec.js:30:3 2.3 - Submit valid form and check for successful submission" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\form_validation.spec.js:30:3 › Form Validation Testing - Section 2 & 3 › 2.3 - Submit valid form and check for successful submission 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-90084-k-for-successful-submission-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-90084-k-for-successful-submission-webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-90084-k-for-successful-submission-webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90084-k-for-successful-submission-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90084-k-for-successful-submission-webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90084-k-for-successful-submission-webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.1.2 - Submit empty form and verify firstname error" classname="validation-tests\form_validation.spec.js" time="1.985">
+<failure message="form_validation.spec.js:47:3 3.1.2 - Submit empty form and verify firstname error" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\form_validation.spec.js:47:3 › Form Validation Testing - Section 2 & 3 › 3.1.2 - Submit empty form and verify firstname error 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-89749--and-verify-firstname-error-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-89749--and-verify-firstname-error-webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-89749--and-verify-firstname-error-webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-89749--and-verify-firstname-error-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-89749--and-verify-firstname-error-webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-89749--and-verify-firstname-error-webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.1.3 - Enter invalid firstname (numbers only) and verify error" classname="validation-tests\form_validation.spec.js" time="3.686">
+<failure message="form_validation.spec.js:59:3 3.1.3 - Enter invalid firstname (numbers only) and verify error" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\form_validation.spec.js:59:3 › Form Validation Testing - Section 2 & 3 › 3.1.3 - Enter invalid firstname (numbers only) and verify error 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.1.4 - Enter invalid firstname (alphanumeric) and verify error" classname="validation-tests\form_validation.spec.js" time="1.668">
+<failure message="form_validation.spec.js:76:3 3.1.4 - Enter invalid firstname (alphanumeric) and verify error" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\form_validation.spec.js:76:3 › Form Validation Testing - Section 2 & 3 › 3.1.4 - Enter invalid firstname (alphanumeric) and verify error 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.1.5 - Enter invalid firstname (with symbols) and verify error" classname="validation-tests\form_validation.spec.js" time="3.066">
+<failure message="form_validation.spec.js:93:3 3.1.5 - Enter invalid firstname (with symbols) and verify error" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\form_validation.spec.js:93:3 › Form Validation Testing - Section 2 & 3 › 3.1.5 - Enter invalid firstname (with symbols) and verify error 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.2.1 - Enter invalid lastname (numbers only) and verify error" classname="validation-tests\form_validation.spec.js" time="1.99">
+<failure message="form_validation.spec.js:110:3 3.2.1 - Enter invalid lastname (numbers only) and verify error" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\form_validation.spec.js:110:3 › Form Validation Testing - Section 2 & 3 › 3.2.1 - Enter invalid lastname (numbers only) and verify error 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.2.2 - Enter invalid lastname (alphanumeric) and verify error" classname="validation-tests\form_validation.spec.js" time="3">
+<failure message="form_validation.spec.js:127:3 3.2.2 - Enter invalid lastname (alphanumeric) and verify error" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\form_validation.spec.js:127:3 › Form Validation Testing - Section 2 & 3 › 3.2.2 - Enter invalid lastname (alphanumeric) and verify error 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.2.3 - Enter invalid lastname (with symbols) and verify error" classname="validation-tests\form_validation.spec.js" time="1.723">
+<failure message="form_validation.spec.js:144:3 3.2.3 - Enter invalid lastname (with symbols) and verify error" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\form_validation.spec.js:144:3 › Form Validation Testing - Section 2 & 3 › 3.2.3 - Enter invalid lastname (with symbols) and verify error 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.3.1 - Enter invalid email addresses and verify error" classname="validation-tests\form_validation.spec.js" time="3.108">
+<failure message="form_validation.spec.js:161:3 3.3.1 - Enter invalid email addresses and verify error" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\form_validation.spec.js:161:3 › Form Validation Testing - Section 2 & 3 › 3.3.1 - Enter invalid email addresses and verify error 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.4.1 - Check date format (Expected to fail)" classname="validation-tests\form_validation.spec.js" time="1.765">
+<failure message="form_validation.spec.js:179:3 3.4.1 - Check date format (Expected to fail)" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\form_validation.spec.js:179:3 › Form Validation Testing - Section 2 & 3 › 3.4.1 - Check date format (Expected to fail) 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.5.1 - Enter invalid LinkedIn URL and verify error (Expected to fail)" classname="validation-tests\form_validation.spec.js" time="5.514">
+<failure message="form_validation.spec.js:196:3 3.5.1 - Enter invalid LinkedIn URL and verify error (Expected to fail)" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\form_validation.spec.js:196:3 › Form Validation Testing - Section 2 & 3 › 3.5.1 - Enter invalid LinkedIn URL and verify error (Expected to fail) 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.5.2 - Enter invalid GitHub URL and verify error (Expected to fail)" classname="validation-tests\form_validation.spec.js" time="1.853">
+<failure message="form_validation.spec.js:220:3 3.5.2 - Enter invalid GitHub URL and verify error (Expected to fail)" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\form_validation.spec.js:220:3 › Form Validation Testing - Section 2 & 3 › 3.5.2 - Enter invalid GitHub URL and verify error (Expected to fail) 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="validation-tests\mandatory-optional-fields.spec.js" timestamp="2025-05-22T23:55:54.234Z" hostname="webkit" tests="5" failures="5" skipped="0" time="16.517" errors="0">
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.1.1 - Create user profile without mandatory fields and verify error messages" classname="validation-tests\mandatory-optional-fields.spec.js" time="3.63">
+<failure message="mandatory-optional-fields.spec.js:14:3 4.1.1 - Create user profile without mandatory fields and verify error messages" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\mandatory-optional-fields.spec.js:14:3 › Mandatory and Optional Field Validation - Section 4 › 4.1.1 - Create user profile without mandatory fields and verify error messages 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.1.1a - Test each mandatory field individually" classname="validation-tests\mandatory-optional-fields.spec.js" time="1.887">
+<failure message="mandatory-optional-fields.spec.js:34:3 4.1.1a - Test each mandatory field individually" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\mandatory-optional-fields.spec.js:34:3 › Mandatory and Optional Field Validation - Section 4 › 4.1.1a - Test each mandatory field individually 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.2.1 - Create user profile without optional fields (Expected to fail)" classname="validation-tests\mandatory-optional-fields.spec.js" time="3.795">
+<failure message="mandatory-optional-fields.spec.js:73:3 4.2.1 - Create user profile without optional fields (Expected to fail)" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\mandatory-optional-fields.spec.js:73:3 › Mandatory and Optional Field Validation - Section 4 › 4.2.1 - Create user profile without optional fields (Expected to fail) 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.2.1a - Test each optional field individually" classname="validation-tests\mandatory-optional-fields.spec.js" time="2.583">
+<failure message="mandatory-optional-fields.spec.js:98:3 4.2.1a - Test each optional field individually" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\mandatory-optional-fields.spec.js:98:3 › Mandatory and Optional Field Validation - Section 4 › 4.2.1a - Test each optional field individually 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-43349-optional-field-individually-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-43349-optional-field-individually-webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-43349-optional-field-individually-webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-43349-optional-field-individually-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-43349-optional-field-individually-webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-43349-optional-field-individually-webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.2.1b - Test form submission with only mandatory fields and verify no errors for optional fields" classname="validation-tests\mandatory-optional-fields.spec.js" time="4.622">
+<failure message="mandatory-optional-fields.spec.js:127:3 4.2.1b - Test form submission with only mandatory fields and verify no errors for optional fields" type="FAILURE">
+<![CDATA[  [webkit] › validation-tests\mandatory-optional-fields.spec.js:127:3 › Mandatory and Optional Field Validation - Section 4 › 4.2.1b - Test form submission with only mandatory fields and verify no errors for optional fields 
+
+    Error: page.goto: Could not resolve hostname
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-webkit\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-webkit\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-webkit\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-webkit\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-webkit\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-webkit\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="validation-tests\form_validation.spec.js" timestamp="2025-05-22T23:55:54.234Z" hostname="Mobile Chrome" tests="13" failures="13" skipped="0" time="16.254" errors="0">
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 2.1-2.2 - Enter valid information and verify it is visible" classname="validation-tests\form_validation.spec.js" time="1.479">
+<failure message="form_validation.spec.js:14:3 2.1-2.2 - Enter valid information and verify it is visible" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\form_validation.spec.js:14:3 › Form Validation Testing - Section 2 & 3 › 2.1-2.2 - Enter valid information and verify it is visible 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-781a2-on-and-verify-it-is-visible-Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 2.3 - Submit valid form and check for successful submission" classname="validation-tests\form_validation.spec.js" time="1.281">
+<failure message="form_validation.spec.js:30:3 2.3 - Submit valid form and check for successful submission" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\form_validation.spec.js:30:3 › Form Validation Testing - Section 2 & 3 › 2.3 - Submit valid form and check for successful submission 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-90084-k-for-successful-submission-Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-90084-k-for-successful-submission-Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-90084-k-for-successful-submission-Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90084-k-for-successful-submission-Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90084-k-for-successful-submission-Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90084-k-for-successful-submission-Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.1.2 - Submit empty form and verify firstname error" classname="validation-tests\form_validation.spec.js" time="1.146">
+<failure message="form_validation.spec.js:47:3 3.1.2 - Submit empty form and verify firstname error" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\form_validation.spec.js:47:3 › Form Validation Testing - Section 2 & 3 › 3.1.2 - Submit empty form and verify firstname error 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-89749--and-verify-firstname-error-Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-89749--and-verify-firstname-error-Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-89749--and-verify-firstname-error-Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-89749--and-verify-firstname-error-Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-89749--and-verify-firstname-error-Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-89749--and-verify-firstname-error-Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.1.3 - Enter invalid firstname (numbers only) and verify error" classname="validation-tests\form_validation.spec.js" time="1.259">
+<failure message="form_validation.spec.js:59:3 3.1.3 - Enter invalid firstname (numbers only) and verify error" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\form_validation.spec.js:59:3 › Form Validation Testing - Section 2 & 3 › 3.1.3 - Enter invalid firstname (numbers only) and verify error 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8c3cb-mbers-only-and-verify-error-Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.1.4 - Enter invalid firstname (alphanumeric) and verify error" classname="validation-tests\form_validation.spec.js" time="1.254">
+<failure message="form_validation.spec.js:76:3 3.1.4 - Enter invalid firstname (alphanumeric) and verify error" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\form_validation.spec.js:76:3 › Form Validation Testing - Section 2 & 3 › 3.1.4 - Enter invalid firstname (alphanumeric) and verify error 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-8b227-phanumeric-and-verify-error-Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.1.5 - Enter invalid firstname (with symbols) and verify error" classname="validation-tests\form_validation.spec.js" time="1.127">
+<failure message="form_validation.spec.js:93:3 3.1.5 - Enter invalid firstname (with symbols) and verify error" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\form_validation.spec.js:93:3 › Form Validation Testing - Section 2 & 3 › 3.1.5 - Enter invalid firstname (with symbols) and verify error 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-c8158-th-symbols-and-verify-error-Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.2.1 - Enter invalid lastname (numbers only) and verify error" classname="validation-tests\form_validation.spec.js" time="1.175">
+<failure message="form_validation.spec.js:110:3 3.2.1 - Enter invalid lastname (numbers only) and verify error" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\form_validation.spec.js:110:3 › Form Validation Testing - Section 2 & 3 › 3.2.1 - Enter invalid lastname (numbers only) and verify error 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-3b23e-mbers-only-and-verify-error-Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.2.2 - Enter invalid lastname (alphanumeric) and verify error" classname="validation-tests\form_validation.spec.js" time="1.142">
+<failure message="form_validation.spec.js:127:3 3.2.2 - Enter invalid lastname (alphanumeric) and verify error" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\form_validation.spec.js:127:3 › Form Validation Testing - Section 2 & 3 › 3.2.2 - Enter invalid lastname (alphanumeric) and verify error 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-85841-phanumeric-and-verify-error-Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.2.3 - Enter invalid lastname (with symbols) and verify error" classname="validation-tests\form_validation.spec.js" time="1.269">
+<failure message="form_validation.spec.js:144:3 3.2.3 - Enter invalid lastname (with symbols) and verify error" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\form_validation.spec.js:144:3 › Form Validation Testing - Section 2 & 3 › 3.2.3 - Enter invalid lastname (with symbols) and verify error 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-90c61-th-symbols-and-verify-error-Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.3.1 - Enter invalid email addresses and verify error" classname="validation-tests\form_validation.spec.js" time="1.174">
+<failure message="form_validation.spec.js:161:3 3.3.1 - Enter invalid email addresses and verify error" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\form_validation.spec.js:161:3 › Form Validation Testing - Section 2 & 3 › 3.3.1 - Enter invalid email addresses and verify error 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-f2a1f--addresses-and-verify-error-Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.4.1 - Check date format (Expected to fail)" classname="validation-tests\form_validation.spec.js" time="1.299">
+<failure message="form_validation.spec.js:179:3 3.4.1 - Check date format (Expected to fail)" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\form_validation.spec.js:179:3 › Form Validation Testing - Section 2 & 3 › 3.4.1 - Check date format (Expected to fail) 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-6b50b-te-format-Expected-to-fail--Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.5.1 - Enter invalid LinkedIn URL and verify error (Expected to fail)" classname="validation-tests\form_validation.spec.js" time="1.169">
+<failure message="form_validation.spec.js:196:3 3.5.1 - Enter invalid LinkedIn URL and verify error (Expected to fail)" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\form_validation.spec.js:196:3 › Form Validation Testing - Section 2 & 3 › 3.5.1 - Enter invalid LinkedIn URL and verify error (Expected to fail) 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-111f2-ify-error-Expected-to-fail--Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Form Validation Testing - Section 2 &amp; 3 › 3.5.2 - Enter invalid GitHub URL and verify error (Expected to fail)" classname="validation-tests\form_validation.spec.js" time="1.48">
+<failure message="form_validation.spec.js:220:3 3.5.2 - Enter invalid GitHub URL and verify error (Expected to fail)" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\form_validation.spec.js:220:3 › Form Validation Testing - Section 2 & 3 › 3.5.2 - Enter invalid GitHub URL and verify error (Expected to fail) 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\form_validation.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-form_vali-81fd8-ify-error-Expected-to-fail--Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="validation-tests\mandatory-optional-fields.spec.js" timestamp="2025-05-22T23:55:54.234Z" hostname="Mobile Chrome" tests="5" failures="5" skipped="0" time="7.292" errors="0">
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.1.1 - Create user profile without mandatory fields and verify error messages" classname="validation-tests\mandatory-optional-fields.spec.js" time="1.326">
+<failure message="mandatory-optional-fields.spec.js:14:3 4.1.1 - Create user profile without mandatory fields and verify error messages" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\mandatory-optional-fields.spec.js:14:3 › Mandatory and Optional Field Validation - Section 4 › 4.1.1 - Create user profile without mandatory fields and verify error messages 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-34e29-s-and-verify-error-messages-Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.1.1a - Test each mandatory field individually" classname="validation-tests\mandatory-optional-fields.spec.js" time="1.774">
+<failure message="mandatory-optional-fields.spec.js:34:3 4.1.1a - Test each mandatory field individually" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\mandatory-optional-fields.spec.js:34:3 › Mandatory and Optional Field Validation - Section 4 › 4.1.1a - Test each mandatory field individually 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-f7fd7-andatory-field-individually-Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.2.1 - Create user profile without optional fields (Expected to fail)" classname="validation-tests\mandatory-optional-fields.spec.js" time="1.877">
+<failure message="mandatory-optional-fields.spec.js:73:3 4.2.1 - Create user profile without optional fields (Expected to fail)" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\mandatory-optional-fields.spec.js:73:3 › Mandatory and Optional Field Validation - Section 4 › 4.2.1 - Create user profile without optional fields (Expected to fail) 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-3dfa2-al-fields-Expected-to-fail--Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.2.1a - Test each optional field individually" classname="validation-tests\mandatory-optional-fields.spec.js" time="1.081">
+<failure message="mandatory-optional-fields.spec.js:98:3 4.2.1a - Test each optional field individually" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\mandatory-optional-fields.spec.js:98:3 › Mandatory and Optional Field Validation - Section 4 › 4.2.1a - Test each optional field individually 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-43349-optional-field-individually-Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-43349-optional-field-individually-Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-43349-optional-field-individually-Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-43349-optional-field-individually-Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-43349-optional-field-individually-Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-43349-optional-field-individually-Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+<testcase name="Mandatory and Optional Field Validation - Section 4 › 4.2.1b - Test form submission with only mandatory fields and verify no errors for optional fields" classname="validation-tests\mandatory-optional-fields.spec.js" time="1.234">
+<failure message="mandatory-optional-fields.spec.js:127:3 4.2.1b - Test form submission with only mandatory fields and verify no errors for optional fields" type="FAILURE">
+<![CDATA[  [Mobile Chrome] › validation-tests\mandatory-optional-fields.spec.js:127:3 › Mandatory and Optional Field Validation - Section 4 › 4.2.1b - Test form submission with only mandatory fields and verify no errors for optional fields 
+
+    Error: page.goto: net::ERR_INTERNET_DISCONNECTED at https://qa-assessment.pages.dev/
+    Call log:
+      - navigating to "https://qa-assessment.pages.dev/", waiting until "load"
+
+
+       at ..\pages\UserProfilePage.js:35
+
+      33 |
+      34 |   async navigateToPage() {
+    > 35 |     await this.page.goto('/');
+         |                     ^
+      36 |     await this.page.waitForLoadState('networkidle');
+      37 |   }
+      38 |
+        at UserProfilePage.navigateToPage (C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\pages\UserProfilePage.js:35:21)
+        at C:\Users\Ndzelen Glen Afoni\Documents\QA Engineer Challenge\Part2\automation\tests\validation-tests\mandatory-optional-fields.spec.js:11:27
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-Mobile-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-Mobile-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: ..\test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-Mobile-Chrome\error-context.md
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-Mobile-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-Mobile-Chrome\video.webm]]
+
+[[ATTACHMENT|..\test-results\validation-tests-mandatory-ec239--errors-for-optional-fields-Mobile-Chrome\error-context.md]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
